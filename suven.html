@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <a href="https://icons8.com/icon/aBNtkpYvycsP/search"></a>
+    <link href='https://css.gg/search.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="hnav">
+           <ul>
+               <li><a href="#movies">MOVIES</a></li>
+               <li><a href="#music">MUSIC</a></li>
+               <li><a href="#series">TV SERIES</a></li>
+           </ul>
+        <form class="search-form" action="www.google.com">
+            <input type="text" placeholder="search..." required>
+            <button type="submit"><i class="gg-search"></i></button>
+            <div class="img">
+                <a href="google.com"><img src="365ep.jpg"></a>
+                 </div>
+        </form>
+        <h2><a href="www.google.com">TELUGU MOVIES</a></h2>
+    </div>
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="bml4.jpg" >
+        <img class="mySlides" src="rrr4.jpg"  >
+        <img class="mySlides" src="ps4.jpg" >
+        <img class="mySlides" src="sh4.jpg" >
+        <img class="mySlides" src="ak4.jpg" >
+        <img class="mySlides" src="mh4.jpg" >
+        <img class="mySlides" src="rd4.jpg" >
+        <img class="mySlides" src="ak4.jpg" >
+        <img class="mySlides" src="rd4.jpg"  >
+        <img class="mySlides" src="rrr4.jpg" >
+        <img class="mySlides" src="sl4.jpg" >
+        <img class="mySlides" src="ar4.jpg" >
+      </div>
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+<div class="movies" id="movies">
+    <h2>MOVIES</h2>
+       <a  href="#12"><img id="bml" src="bm1.jpg">BHEEMLA NAYAK</a>
+       <a  href="#13"> <img id="rrr" src="rrr.jpg">RRR</a>
+       <a  href="#14"> <img id="ps1" src="ps1.jpg">PUSHPA</a>
+        <a href="#15"> <img id="sh1" src="sh1.jpg">SAAHOO</a>
+</div>
+<div class="music" id="music">
+    <h2>MUSIC</h2>
+       <a href="https://www.youtube.com/watch?v=YcQ38mUMIWE" target="https://www.youtube.com/watch?v=YcQ38mUMIWE"><img id="bml" src="bml1.jpg">TITLE SONG</a>
+       
+       <a href="https://www.youtube.com/watch?v=Gt9WzC4WDEA" target="https://www.youtube.com/watch?v=Gt9WzC4WDEA">  <img id="rrr" src="rrr2.jpg">NATU NATU</a>
+       <a href="https://www.youtube.com/watch?v=jGetqo_SC9U" target="https://www.youtube.com/watch?v=jGetqo_SC9U"> <img id="ps1" src="ps2.jpg">EY BIDDA</a>
+        <a href="https://www.youtube.com/watch?v=8N7Zh7Qg_v8" target="https://www.youtube.com/watch?v=8N7Zh7Qg_v8"> <img id="sh1" src="sh2.jpg">INTRO</a>
+</div>
+<div class="series" id="series">
+    <h2>SERIES</h2>
+       <a href="#12"><img id="bml" src="bml2.jpg">GANGSTARS</a>
+       <a href="#13"> <img id="rrr" src="rrr3.jpg">PANCHAYAT</a>
+       <a href="#14"> <img id="ps1" src="ps3.jpg">MIRZAPUR</a>
+        <a href="#15"> <img id="sh1" src="sh3.jpg">BREATHE</a>
+</div>
+<div class="info">
+    <h3>DESINED BY -NAVEENKUMAR</h3>
+    <h4>365 TELUGU MOVIES</h4>
+</div>
+</body>
+</html>
